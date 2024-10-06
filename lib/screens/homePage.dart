@@ -8,8 +8,8 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ChatPage(
-        //child: Center(child: Text("Chat")),
-      ),
+          //child: Center(child: Text("Chat")),
+          ),
       bottomNavigationBar: BottomNavigationBar(
         selectedItemColor: Colors.red,
         unselectedItemColor: Colors.grey.shade600,
@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.group_work),
-            label: "Channels", 
+            label: "Channels",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.account_box),
